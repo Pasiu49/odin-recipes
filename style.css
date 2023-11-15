@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(175, 76, 76)
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: larger;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+li {
+    color: white;
+    font-size: x-large;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(190, 143, 143);
+}
+
+button {
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(190, 143, 143);
+    height: 40px;
+    width: 100px;
+    font-size: x-large;
+    text-align: center;
+}
+
+button:hover {
+    background-color: rgb(173, 122, 122);
+    transform: scale(1.1);
+}
+
+#button {
+    transform: translateY(500%);
+}

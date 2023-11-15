@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(175, 76, 76)
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: larger;
+    text-align: center;
+    color: rgb(233, 220, 220);
+}
+
+li {
+    color: white;
+    font-size: large;
+}
+
+ul, ol {
+    margin-top: -10px;
+}
+
+#back {
+    height: 200px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(190, 143, 143);
+}
